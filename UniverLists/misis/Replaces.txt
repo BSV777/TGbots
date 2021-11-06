@@ -1,0 +1,42 @@
+s/<div class="col-md-2 col-sm-2 col-xs-4">//g
+s/<div class="col-sm-4 col-md-2"><div class="data data-indent"><div class="row">//g
+s/<Date>//g
+s/<\/Date>//g
+s/<div class="row">//g
+s/<Qualification>//g
+s/<\/Qualification>//g
+s/<form>//g
+s/<\/form>//g
+s/<finans>//g
+s/<\/finans>//g
+s/<institute>//g
+s/<\/institute>//g
+s/<div class="data data-indent">//g
+s/<itog>//g
+s/<\/itog>//g
+s/<celev>//g
+s/<\/celev>//g
+s/<osob>//g
+s/<\/osob>//g
+s/<contest>//g
+s/<\/contest>//g
+s/<Direction>//g
+s/<\/Direction>//g
+s/<\/div><\/div>/\n/g
+s/<\/div>//g
+s/},{/\n/g
+s/<div class="wide"><div class="data-table-container"><table class="data with-hover sortable js-fixed js-table-data" data-students='{"students":\[{//g
+s/}\]}'><thead><tr><th data-defaultsort="asc" rowspan="2">№ п\/п<\/th><th rowspan="2">Рег. №<\/th><th rowspan="2">/\n/g
+s/<footer.*>//g
+s/<\/tr>/\n/g
+s/<\/tbody><\/table>//g
+s/<tr><td>//g
+s/<\/td><td>/\t/g
+s/<\/td>//g
+s/<\/th><th rowspan="2">/\t/g
+s/<\/th><th colspan="3" class="a_c">/\t/g
+s/<\/th><th>/\t/g
+s/<\/th>//g
+s/<tr><th>//g
+s/<\/thead><tbody>//g
+s/Математика	Физика	Русский язык//g

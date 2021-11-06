@@ -1,0 +1,14 @@
+s/<tr class="acceptedPoint accepted" id="//g
+s/<\/td><td>/\t/g
+s/<tr class="accepted" id="//g
+s/<\/td><td//g
+s/style="color:gray;">/\t/g
+s/&nbsp;//g
+s/<\/td><\/tr>//g
+s/"><td>/\t/g
+s/">/\t/g
+s/<tr class="acceptedPoint accepted benefit" id="//g
+s/\r//g
+s/id="s//g
+s/б\/о//g
+s/с\/о//g
